@@ -480,15 +480,27 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     gap: 10px;
 }
 .main-soc-item{
+    list-style: none;
+   
+}
 
-}
 .main-item-list{
-    width: 44px; height: 44px; border-radius: 50%; 
-    background-color: red;
- display: block;
- margin-bottom: 30px;
- 
+    width: 44px; height: 44px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff ;
 }
+.main-item-list:hover,
+.main-item-list:focus {
+    background-color: #2196F3;
+}
+.main-soc-icon{
+    fill: red;
+}
+
+
 .section-hhh {
 
     font-weight: 700;
