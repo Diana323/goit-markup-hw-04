@@ -264,9 +264,10 @@ a.logo {
  
 
 
-.address-nav:focus,
+.address-nav:focus ,
 .address-nav:hover {
     color: var(--color-sky-);
+    fill: #2196F3;
 }
 
 .address-nav {
@@ -276,10 +277,16 @@ a.logo {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #757575;
-
+    
     margin-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.item{
+    fill: #757575;
+}
+.item:hover{
+    fill: #2196F3;
 }
 /*   --------------            ---*/
 .address-nav:last-child{
