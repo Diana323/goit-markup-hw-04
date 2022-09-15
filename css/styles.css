@@ -365,19 +365,22 @@ Font-style: Bold;
     line-height: 16px;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 20px;
     
 }
 
 
 .footer__soc{
 display: flex;
-margin-top: 20px;
+
+gap: 10px;
 
 }
 .my_link_footer{
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    
 
     display: flex;
     justify-content: center;
@@ -393,7 +396,7 @@ margin-top: 20px;
 }
 .footer__soc_item{
     list-style: none;
-    margin-right: 10px;
+    
 }
 .footer__soc_item:last-child{
     margin-right: 0px;
