@@ -194,6 +194,9 @@ color: var(--color-milk-)
     height: 80px;
     
 }
+.header_icon_email, .header_icon_phone{
+margin-right: 10px;
+}
 .page-header {
    
     border-bottom: 1px solid #ECECEC;
@@ -433,10 +436,7 @@ margin-top: 20px;
     flex-basis: calc((100%-60px)/3);
     gap: 30px;
 }
-.flex-element:last-child{
-    margin-right: 0px;
 
-}
 
 .flex-element {
     flex-basis: 370px;
