@@ -543,6 +543,8 @@ margin-bottom: 30px;
 .photo{
     margin-right: 30px;
 }
+
+
 .photo:last-child{
     margin-right: 0px;
 }
