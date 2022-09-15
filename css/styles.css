@@ -339,7 +339,7 @@ a.navigation-footer {
 }
 .navigation-footer{
     
-    margin-right: 70px;
+    
 }
 
 .address-footer {
@@ -369,6 +369,9 @@ Font-style: Bold;
     
 }
 
+.wrap_contacts{
+    margin-right: 70px;
+}
 
 .footer__soc{
 display: flex;
